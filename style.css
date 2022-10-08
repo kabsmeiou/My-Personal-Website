@@ -1,0 +1,241 @@
+body {
+    background-image: url('https://images2.alphacoders.com/110/1107572.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#image1 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 82%;
+    top: 20.6%;
+
+}
+
+#aa {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    right: 82%;
+    top: -52%;
+    transform: rotate(70deg);
+}
+a {
+    color: white;
+}
+
+.container {
+    height: 250px;
+    width: 1000px;   
+    border: 3px solid black;
+    position: absolute;
+    top: 25%;
+    left: 16.4%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.container2 {
+    height: 100px;
+    width: 500px;   
+    border: 3px solid black;
+    position: absolute;
+    top: 60.2%;
+    left: 32.8%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.button {
+    border: 2px black;
+    color: white;
+    align-content: center;
+    font-family: 'Bookman'
+}
+
+.button1 {
+    position: relative;
+    background-color: #00acee;
+    align-items: center;
+    justify-content: center;
+    right: 15%;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: lightgray;
+}
+
+
+.button2:hover {
+    background-color: lightgray;
+}
+
+.button2 {
+    position: relative;
+    background-color: #7289DA;
+    color: white;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    right: 5%;
+    border-radius: 10px;
+}
+  
+
+.button2 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    left: -60%;
+    bottom: 110%;
+    position: absolute;
+    z-index: -1;
+}
+  
+.button2:hover .tooltiptext {
+    visibility: visible;
+}
+.button2:hover {
+    background-color: lightgray;
+}
+  
+
+.button3 {
+    position: relative;
+    background-color: #1b2838;
+    align-items: center;
+    justify-content: center;
+    left:5%;
+    border-radius: 10px;
+}
+
+.button3:hover {
+    background-color: lightgray;
+}
+
+.button4 {
+    position: relative;
+    background-color: #1ed760;
+    align-items: center;
+    justify-content: center;
+    left: 15%;
+    border-radius: 10px;
+}
+
+.button4:hover {
+    background-color: lightgray;
+}
+
+
+.text {
+    position:absolute;
+    top: -5%;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif; 
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+
+.text1 {
+    position: relative; 
+    display: flex;
+    top: 17%;
+    left: 3%;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif; 
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+.bouncing-text {
+    position: relative;
+    top: 17%;
+    display: flex;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif;
+}
+  
+.w, .a, .l, .c, .o, .m, .e {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+  
+.w {
+    animation: bounce 1s ease infinite;
+    -webkit-animation: bounce 1s ease infinite;
+}
+  
+.a {
+    animation: bounce 1s ease infinite .1s;
+    -webkit-animation: bounce 1s ease infinite .1s;
+}
+  
+.l {
+    animation: bounce 1s ease infinite .2s;
+    -webkit-animation: bounce 1s ease infinite .2s;
+}
+  
+.c {
+    animation: bounce 1s ease infinite .3s;
+    -webkit-animation: bounce 1s ease infinite .3s;
+}
+  
+.o {
+    animation: bounce 1s ease infinite .4s;
+    -webkit-animation: bounce 1s ease infinite .4s;
+}
+  
+.m {
+    animation: bounce 1s ease infinite .5s;
+   -webkit-animation: bounce 1s ease infinite .5s;
+}
+  
+.e {
+    animation: bounce 1s ease infinite .6s;
+    -webkit-animation: bounce 1s ease infinite .6s;
+}
+
+  @keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-17px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-5px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+}
+  
+@-webkit-keyframes bounce {
+    0%   { transform: scale(0,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-17px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px);}
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);} 
+}
+  
+  
+
+
+
+
+
