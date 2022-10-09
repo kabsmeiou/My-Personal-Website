@@ -350,7 +350,7 @@ a {
         max-width: 1000px;
         max-height: 1500px;
         overflow-y: hidden;
-        background-position: -150px;
+        background-position: -200px;
     }
 
     .container {
@@ -407,7 +407,7 @@ a {
 @media only screen and (max-width: 750px) {
 
     .bg-img {
-        background-position: -270px;
+        background-position: -310px;
     }
     
     .container {
@@ -430,7 +430,7 @@ a {
         max-width: 900px;
         max-height: 1300px;
         overflow-y: hidden;
-        background-position: -400px;
+        background-position: -450px;
     }
 
     .container {
@@ -475,7 +475,7 @@ a {
 @media only screen and (max-width: 500px) {
 
     .bg-img {
-        background-position: -470px;
+        background-position: -570px;
     }
     
     .container {
@@ -489,7 +489,7 @@ a {
         max-width: 900px;
         max-height: 900px;
         overflow-y: hidden;
-        background-position: -450px;
+        background-position: -650px;
     }
 
     .container {
@@ -563,7 +563,7 @@ a {
         max-width: 900px;
         max-height: 900px;
         overflow-y: hidden;
-        background-position: -550px;
+        background-position: -650px;
     }
 
     .container {
@@ -577,7 +577,7 @@ a {
 @media only screen and (max-width: 350px) {
 
     .bg-img {
-        background-position: -570px;
+        background-position: -770px;
     }
 
     .container {
