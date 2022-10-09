@@ -1,0 +1,525 @@
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    font-family: "Nunito Sans", sans-serif;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+.bg-img{
+    background-image: url('https://images2.alphacoders.com/110/1107572.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80%;
+    height: 120%;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    height: 250px;
+    width: 1000px;   
+    border: 3px solid black;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 18.2%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.container #image1 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 47px;
+}
+
+.container #aa {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    transform: rotate(60deg);
+    margin-right: 970px;
+    margin-bottom: 200px;
+}
+
+.container .text {
+    position:absolute;
+    margin-bottom: 210px;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif; 
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+
+.container .text1 {
+    position: relative; 
+    display: flex;
+    margin-top: 175px;
+    margin-left: 30px;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif; 
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+
+.container .bouncing-text {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif;
+}
+  
+.container .w, .a, .l, .c, .o  {
+    position: relative;
+    color: white;
+    text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
+}
+  
+.container .w {
+    animation: bounce 1s ease infinite;
+    -webkit-animation: bounce 1s ease infinite;
+}
+  
+.container .a {
+    animation: bounce 1s ease infinite .1s;
+    -webkit-animation: bounce 1s ease infinite .1s;
+}
+  
+.container .l {
+    animation: bounce 1s ease infinite .2s;
+    -webkit-animation: bounce 1s ease infinite .2s;
+}
+  
+.container .c {
+    animation: bounce 1s ease infinite .3s;
+    -webkit-animation: bounce 1s ease infinite .3s;
+}
+  
+.container .o {
+    animation: bounce 1s ease infinite .4s;
+    -webkit-animation: bounce 1s ease infinite .4s;
+}
+
+@keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-17px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-5px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+}
+  
+@-webkit-keyframes bounce {
+    0%   { transform: scale(0,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-17px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px);}
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);} 
+}
+
+.container .container2 {
+    height: 100px;
+    width: 500px;   
+    border: 3px solid black;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+
+.container .container2 .button {
+    border: 2px black;
+    color: white;
+    align-content: center;
+    font-family: 'Bookman'
+}
+
+.container .container2 .button1 {
+    position: relative;
+    background-color: #00acee;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.container .container2 .button1:hover {
+    background-color: lightgray;
+}
+
+.container .container2 .button2 {
+    position: relative;
+    background-color: #7289DA;
+    color: white;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.container .container2 .button2:hover {
+    background-color: lightgray;
+}
+
+.container .container2 .button2 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-left: -80px;
+    position: absolute;
+}
+  
+.container .container2 .button2:hover .tooltiptext {
+    visibility: visible;
+}
+.container .container2 .button2:hover {
+    background-color: lightgray;
+}
+  
+
+.container .container2 .button3 {
+    position: relative;
+    background-color: #1b2838;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.container .container2 .button3:hover {
+    background-color: lightgray;
+}
+
+.container .container2 .button4 {
+    position: relative;
+    background-color: #1ed760;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.container .container2 .button4:hover {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 1300px) {
+    .bg-img {
+        max-width: 1300px;
+        height: 1000px;
+        overflow-y: hidden;
+    }
+
+    .container {
+        height: 250px;
+        width: 700px;  
+        margin-top: 15%;
+        margin-left: 23%;
+    }
+
+    .container #image1 {
+        margin-left: 570px;
+        margin-bottom: -58px;
+    }
+    
+    .container #aa {
+        margin-right: 680px;
+        margin-bottom: 200px;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 220px;
+        font-size: 60px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 205px;
+        margin-left: 0px;
+        font-size: 60px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-top: 0px;
+        font-size: 60px;
+    }
+
+    .container .container2 {
+        height: 100px;
+        width: 400px;   
+    }
+
+    .container .container2 .button {
+        height: 55px;
+        width: 55px;
+    }
+
+    .container .container2 .button1 {
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    .new1 {
+        height: 35px;
+        width: 35px;
+    }    
+
+    .container .container2 .button2 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .container .new2 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button3 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .new3 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button4 {
+        padding: 5px;
+        margin-left: 20px;
+    }
+    
+    .new4 {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .bg-img {
+        max-width: 900px;
+        height: 1000px;
+        overflow-y: hidden;
+    }
+
+    .container {
+        height: 200px;
+        width: 600px;  
+        margin-top: 25%;
+        margin-left: 17%;
+    }
+
+    .container #image1 {
+        margin-left: 500px;
+        margin-bottom: -30px;
+    }
+    
+    .container #aa {
+        margin-right: 580px;
+        margin-bottom: 160px;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 140px;
+        margin-right: 200px;
+        font-size: 50px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 110px;
+        margin-right: 50px;
+        font-size: 50px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-bottom: 90px;
+        margin-left: 250px;
+        font-size: 50px;
+    }
+
+    .container .container2 {
+        height: 100px;
+        width: 350px;   
+    }
+
+    .container .container2 .button {
+        height: 55px;
+        width: 55px;
+    }
+
+    .container .container2 .button1 {
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    .new1 {
+        height: 35px;
+        width: 35px;
+    }    
+
+    .container .container2 .button2 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .container .new2 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button3 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .new3 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button4 {
+        padding: 5px;
+        margin-left: 20px;
+    }
+    
+    .new4 {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        max-width: 900px;
+        height: 1300px;
+        overflow-y: hidden;
+        background-position: -550px;
+    }
+
+    .container {
+        height: 300px;
+        width: 400px;  
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    .container #image1 {
+        display: none;
+    }
+    
+    .container #aa {
+        display: none;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 220px;
+        margin-right: 0px;
+        font-size: 50px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 205px;
+        margin-left: 50px;
+        font-size: 50px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-top: 80px;
+        margin-right: 250px;
+        font-size: 60px;
+    }
+
+    .container .container2 {
+        height: 70px;
+        width: 200px;   
+    }
+
+    .container .container2 .button {
+        height: 30px;
+        width: 30px;
+    }
+
+    .container .container2 .button1 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .new1 {
+        height: 20px;
+        width: 20px;
+    }    
+
+    .container .container2 .button2 {
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+    .container .new2 {
+        height: 20px;
+        width: 20px;
+    }
+
+    .container .container2 .button3 {
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .new3 {
+        height: 20px;
+        width: 20px;
+    }
+
+    .container .container2 .button4 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+    
+    .new4 {
+        height: 20px;
+        width: 20px;
+    }
+}
