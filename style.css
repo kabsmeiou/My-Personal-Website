@@ -1,28 +1,21 @@
-body {
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    font-family: "Nunito Sans", sans-serif;
+    max-height: 100%;
+    overflow-x: hidden;
+}
+
+.bg-img{
     background-image: url('https://images2.alphacoders.com/110/1107572.png');
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    max-width: 1920px;
-    padding: 0px 0px 0px;
-    overflow: hidden;
-    min-width: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80%;
+    height: 120%;
 }
 
-#image1 {
-    width: 20%;
-    height: auto;
-    position: absolute;
-    padding: 52px 0px 0px 845px;
-}
-
-#aa {
-    width: 30%;
-    height: auto;
-    position: absolute;
-    padding: 740px 650px 0px 0px;
-    transform: rotate(60deg);
-}
 a {
     color: white;
 }
@@ -42,112 +35,26 @@ a {
     border-radius: 15px;
 }
 
-.container2 {
-    height: 100px;
-    width: 500px;   
-    border: 3px solid black;
+.container #image1 {
+    width: 20%;
+    height: auto;
     position: absolute;
-    margin-top: 454px;
-    margin-left: 500px;
-    background-color: rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(2px);
-    border-radius: 15px;
+    margin-left: 820px;
+    margin-top: 47px;
 }
 
-.button {
-    border: 2px black;
-    color: white;
-    align-content: center;
-    font-family: 'Bookman'
-}
-
-.button1 {
-    position: relative;
-    background-color: #00acee;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-right: 50px;
-    border-radius: 10px;
-}
-
-.button1:hover {
-    background-color: lightgray;
-}
-
-
-.button2:hover {
-    background-color: lightgray;
-}
-
-.button2 {
-    position: relative;
-    background-color: #7289DA;
-    color: white;
-    border:none;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-right: 25px;
-    border-radius: 10px;
-}
-  
-
-.button2 .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    margin-left: -80px;
+.container #aa {
+    width: 30%;
+    height: auto;
     position: absolute;
-}
-  
-.button2:hover .tooltiptext {
-    visibility: visible;
-}
-.button2:hover {
-    background-color: lightgray;
-}
-  
-
-.button3 {
-    position: relative;
-    background-color: #1b2838;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-left: 25px;
-    border-radius: 10px;
+    transform: rotate(60deg);
+    margin-right: 970px;
+    margin-bottom: 200px;
 }
 
-.button3:hover {
-    background-color: lightgray;
-}
-
-.button4 {
-    position: relative;
-    background-color: #1ed760;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin-left: 50px;
-    border-radius: 10px;
-}
-
-.button4:hover {
-    background-color: lightgray;
-}
-
-
-.text {
+.container .text {
     position:absolute;
-    margin-bottom: 130px;
+    margin-bottom: 210px;
     font-size: 80px;
     font-weight: 900;
     font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif; 
@@ -155,10 +62,10 @@ a {
     text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
 }
 
-.text1 {
+.container .text1 {
     position: relative; 
     display: flex;
-    margin-top: 85px;
+    margin-top: 175px;
     margin-left: 30px;
     font-size: 80px;
     font-weight: 900;
@@ -166,47 +73,48 @@ a {
     color: white;
     text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
 }
-.bouncing-text {
+
+.container .bouncing-text {
     position: relative;
-    margin-top: 80px;
+    margin-top: 100px;
     display: flex;
     font-size: 100px;
     font-weight: 900;
     font-family: 'Segoe Print', 'Segoe Print', Gadget, sans-serif;
 }
   
-.w, .a, .l, .c, .o  {
+.container .w, .a, .l, .c, .o  {
     position: relative;
     color: white;
     text-shadow: 0 3px lightslategray, 0 5px gray, 0 7px gray;
 }
   
-.w {
+.container .w {
     animation: bounce 1s ease infinite;
     -webkit-animation: bounce 1s ease infinite;
 }
   
-.a {
+.container .a {
     animation: bounce 1s ease infinite .1s;
     -webkit-animation: bounce 1s ease infinite .1s;
 }
   
-.l {
+.container .l {
     animation: bounce 1s ease infinite .2s;
     -webkit-animation: bounce 1s ease infinite .2s;
 }
   
-.c {
+.container .c {
     animation: bounce 1s ease infinite .3s;
     -webkit-animation: bounce 1s ease infinite .3s;
 }
   
-.o {
+.container .o {
     animation: bounce 1s ease infinite .4s;
     -webkit-animation: bounce 1s ease infinite .4s;
 }
 
-  @keyframes bounce {
+@keyframes bounce {
     0%   { transform: scale(1,1) translateY(0); }
     10%  { transform: scale(1.1,.9) translateY(0); }
     30%  { transform: scale(.9,1.1)   translateY(-17px);}
@@ -226,10 +134,199 @@ a {
     100% { transform: scale(1,1) translateY(0);} 
 }
 
+.container2 {
+    height: 100px;
+    width: 500px;   
+    border: 3px solid black;
+    position: absolute;
+    margin-top: 448px;
+    margin-left: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
 
- 
+.container2 .button {
+    border: 2px black;
+    color: white;
+    align-content: center;
+    font-family: 'Bookman'
+}
 
+.container2 .button1 {
+    position: relative;
+    background-color: #00acee;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
 
+.container2 .button1:hover {
+    background-color: lightgray;
+}
 
+.container2 .button2 {
+    position: relative;
+    background-color: #7289DA;
+    color: white;
+    border:none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
 
+.container2 .button2:hover {
+    background-color: lightgray;
+}
 
+.container2 .button2 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin-left: -80px;
+    position: absolute;
+}
+  
+.container2 .button2:hover .tooltiptext {
+    visibility: visible;
+}
+.container2 .button2:hover {
+    background-color: lightgray;
+}
+  
+
+.container2 .button3 {
+    position: relative;
+    background-color: #1b2838;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.container2 .button3:hover {
+    background-color: lightgray;
+}
+
+.container2 .button4 {
+    position: relative;
+    background-color: #1ed760;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.container2 .button4:hover {
+    background-color: lightgray;
+}
+
+@media only screen and (max-width: 900px) {
+    .bg-img {
+        max-width: 900px;
+        height: 1300px;
+        overflow-y: hidden;
+        background-position: -800px;
+    }
+
+    .container {
+        height: 300px;
+        width: 300px;  
+        margin-left:31px;
+        margin-top:200px; 
+    }
+
+    .container #image1 {
+        display: none;
+    }
+    
+    .container #aa {
+        display: none;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 220px;
+        font-size: 45px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 205px;
+        margin-left: 0px;
+        font-size: 45px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-top: 0px;
+        font-size: 60px;
+    }
+
+    .container2 {
+        height: 70px;
+        width: 200px;   
+        margin-top: 500px;
+        margin-left: 82px;
+    }
+
+    .container2 .button {
+        height: 30px;
+        width: 30px;
+    }
+
+    .container2 .button1 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .new1 {
+        height: 20px;
+        width: 20px;
+    }    
+
+    .container2 .button2 {
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+    .new2 {
+        height: 20px;
+        width: 20px;
+    }
+
+    .container2 .button3 {
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .new3 {
+        height: 20px;
+        width: 20px;
+    }
+
+    .container2 .button4 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+    
+    .new4 {
+        height: 20px;
+        width: 20px;
+    }
+}
