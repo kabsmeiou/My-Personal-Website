@@ -350,7 +350,7 @@ a {
         max-width: 1000px;
         max-height: 1500px;
         overflow-y: hidden;
-        background-position: -350px;
+        background-position: -150px;
     }
 
     .container {
@@ -407,7 +407,7 @@ a {
 @media only screen and (max-width: 750px) {
 
     .bg-img {
-        background-position: -570px;
+        background-position: -270px;
     }
     
     .container {
@@ -417,7 +417,7 @@ a {
 
 @media only screen and (max-width: 680px) {
     .bg-img {
-        background-position: -490px;
+        background-position: -400px;
     }
 
     .container {
@@ -430,7 +430,7 @@ a {
         max-width: 900px;
         max-height: 1300px;
         overflow-y: hidden;
-        background-position: -600px;
+        background-position: -400px;
     }
 
     .container {
