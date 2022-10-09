@@ -25,8 +25,8 @@ a {
     width: 1000px;   
     border: 3px solid black;
     position: absolute;
-    margin-top: 200px;
-    margin-left: 250px;
+    margin-top: 15%;
+    margin-left: 25%;
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
@@ -134,13 +134,12 @@ a {
     100% { transform: scale(1,1) translateY(0);} 
 }
 
-.container2 {
+.container .container2 {
     height: 100px;
     width: 500px;   
     border: 3px solid black;
     position: absolute;
-    margin-top: 448px;
-    margin-left: 500px;
+    top: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
@@ -149,14 +148,14 @@ a {
     border-radius: 15px;
 }
 
-.container2 .button {
+.container .container2 .button {
     border: 2px black;
     color: white;
     align-content: center;
     font-family: 'Bookman'
 }
 
-.container2 .button1 {
+.container .container2 .button1 {
     position: relative;
     background-color: #00acee;
     align-items: center;
@@ -166,11 +165,11 @@ a {
     border-radius: 10px;
 }
 
-.container2 .button1:hover {
+.container .container2 .button1:hover {
     background-color: lightgray;
 }
 
-.container2 .button2 {
+.container .container2 .button2 {
     position: relative;
     background-color: #7289DA;
     color: white;
@@ -182,11 +181,11 @@ a {
     border-radius: 10px;
 }
 
-.container2 .button2:hover {
+.container .container2 .button2:hover {
     background-color: lightgray;
 }
 
-.container2 .button2 .tooltiptext {
+.container .container2 .button2 .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -198,15 +197,15 @@ a {
     position: absolute;
 }
   
-.container2 .button2:hover .tooltiptext {
+.container .container2 .button2:hover .tooltiptext {
     visibility: visible;
 }
-.container2 .button2:hover {
+.container .container2 .button2:hover {
     background-color: lightgray;
 }
   
 
-.container2 .button3 {
+.container .container2 .button3 {
     position: relative;
     background-color: #1b2838;
     align-items: center;
@@ -216,11 +215,11 @@ a {
     border-radius: 10px;
 }
 
-.container2 .button3:hover {
+.container .container2 .button3:hover {
     background-color: lightgray;
 }
 
-.container2 .button4 {
+.container .container2 .button4 {
     position: relative;
     background-color: #1ed760;
     align-items: center;
@@ -230,23 +229,217 @@ a {
     border-radius: 10px;
 }
 
-.container2 .button4:hover {
+.container .container2 .button4:hover {
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 1300px) {
+    .bg-img {
+        max-width: 1300px;
+        height: 1000px;
+        overflow-y: hidden;
+    }
+
+    .container {
+        height: 250px;
+        width: 700px;  
+        margin-top: 15%;
+        margin-left: 23%;
+    }
+
+    .container #image1 {
+        margin-left: 570px;
+        margin-bottom: -58px;
+    }
+    
+    .container #aa {
+        margin-right: 680px;
+        margin-bottom: 200px;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 220px;
+        font-size: 60px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 205px;
+        margin-left: 0px;
+        font-size: 60px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-top: 0px;
+        font-size: 60px;
+    }
+
+    .container .container2 {
+        height: 100px;
+        width: 400px;   
+    }
+
+    .container .container2 .button {
+        height: 55px;
+        width: 55px;
+    }
+
+    .container .container2 .button1 {
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    .new1 {
+        height: 35px;
+        width: 35px;
+    }    
+
+    .container .container2 .button2 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .container .new2 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button3 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .new3 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button4 {
+        padding: 5px;
+        margin-left: 20px;
+    }
+    
+    .new4 {
+        height: 35px;
+        width: 35px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .bg-img {
         max-width: 900px;
+        height: 1000px;
+        overflow-y: hidden;
+    }
+
+    .container {
+        height: 200px;
+        width: 600px;  
+        margin-top: 25%;
+        margin-left: 17%;
+    }
+
+    .container #image1 {
+        margin-left: 500px;
+        margin-bottom: -30px;
+    }
+    
+    .container #aa {
+        margin-right: 580px;
+        margin-bottom: 160px;
+    }
+
+    .container .text {
+        position:absolute;
+        margin-bottom: 140px;
+        margin-right: 200px;
+        font-size: 50px;
+    }
+
+    .container .text1 {
+        position: absolute; 
+        display: flex;
+        margin-top: 110px;
+        margin-right: 50px;
+        font-size: 50px;
+
+    }
+
+    .container .bouncing-text {
+        position: absolute;
+        margin-bottom: 90px;
+        margin-left: 250px;
+        font-size: 50px;
+    }
+
+    .container .container2 {
+        height: 100px;
+        width: 350px;   
+    }
+
+    .container .container2 .button {
+        height: 55px;
+        width: 55px;
+    }
+
+    .container .container2 .button1 {
+        padding: 5px;
+        margin-right: 20px;
+    }
+
+    .new1 {
+        height: 35px;
+        width: 35px;
+    }    
+
+    .container .container2 .button2 {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .container .new2 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button3 {
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .new3 {
+        height: 35px;
+        width: 35px;
+    }
+
+    .container .container2 .button4 {
+        padding: 5px;
+        margin-left: 20px;
+    }
+    
+    .new4 {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .bg-img {
+        max-width: 900px;
         height: 1300px;
         overflow-y: hidden;
-        background-position: -800px;
+        background-position: -750px;
     }
 
     .container {
         height: 300px;
-        width: 300px;  
-        margin-left:31px;
-        margin-top:200px; 
+        width: 400px;  
+        margin-top: 15%;
+        margin-left: 25%;
     }
 
     .container #image1 {
@@ -260,37 +453,37 @@ a {
     .container .text {
         position:absolute;
         margin-bottom: 220px;
-        font-size: 45px;
+        margin-right: 0px;
+        font-size: 50px;
     }
 
     .container .text1 {
         position: absolute; 
         display: flex;
         margin-top: 205px;
-        margin-left: 0px;
-        font-size: 45px;
+        margin-left: 50px;
+        font-size: 50px;
 
     }
 
     .container .bouncing-text {
         position: absolute;
-        margin-top: 0px;
+        margin-top: 80px;
+        margin-right: 250px;
         font-size: 60px;
     }
 
-    .container2 {
+    .container .container2 {
         height: 70px;
         width: 200px;   
-        margin-top: 500px;
-        margin-left: 82px;
     }
 
-    .container2 .button {
+    .container .container2 .button {
         height: 30px;
         width: 30px;
     }
 
-    .container2 .button1 {
+    .container .container2 .button1 {
         padding: 5px;
         margin-right: 10px;
     }
@@ -300,17 +493,17 @@ a {
         width: 20px;
     }    
 
-    .container2 .button2 {
+    .container .container2 .button2 {
         padding: 5px;
         margin-right: 5px;
     }
 
-    .new2 {
+    .container .new2 {
         height: 20px;
         width: 20px;
     }
 
-    .container2 .button3 {
+    .container .container2 .button3 {
         padding: 5px;
         margin-left: 5px;
     }
@@ -320,7 +513,7 @@ a {
         width: 20px;
     }
 
-    .container2 .button4 {
+    .container .container2 .button4 {
         padding: 5px;
         margin-left: 10px;
     }
