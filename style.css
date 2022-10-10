@@ -558,6 +558,18 @@ a {
     }
 }
 
+@media only screen and (max-width: 425px) {
+
+    .bg-img {
+        background-position: -470px;
+    }
+
+    .container {
+        margin-left: 6%;
+    }
+
+}
+
 @media only screen and (max-width: 400px) {
     .bg-img {
         max-width: 900px;
@@ -603,5 +615,12 @@ a {
     .container .bouncing-text {
         margin-top: 75px;
         font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .bg-img {
+        background-position: -570px;
     }
 }
